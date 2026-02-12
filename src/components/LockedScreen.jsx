@@ -15,9 +15,9 @@ export default function LockedScreen({ remainingMs, onDevUnlock, onReset }) {
 
       <div className="actions">
         {/* REMOVE THIS BUTTON BEFORE YOU SEND IT */}
-        {/* <button className="btn ghost" onClick={onDevUnlock} type="button">
+        <button className="btn ghost" onClick={onDevUnlock} type="button">
           (Dev) Test Unlock
-        </button> */}
+        </button>
       </div>
     </div>
   );
