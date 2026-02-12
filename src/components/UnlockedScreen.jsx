@@ -25,9 +25,9 @@ export default function UnlockedScreen({ onReset }) {
 
       <MessagePlaceholder answer={answer} />
 
-      <button className="btn ghost" onClick={onReset} type="button">
+      {/* <button className="btn ghost" onClick={onReset} type="button">
         Reset
-      </button>
+      </button> */}
     </div>
   );
 }
